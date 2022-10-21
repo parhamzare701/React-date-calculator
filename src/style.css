@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.date-calculator {
+  background-color: #2782e3;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date-calculator__container {
+  padding: 1rem;
+  min-height: 20vh;
+  min-width: 50%;
+  border-radius: 0.3rem;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.date-calculator__container__result {
+  margin: 1rem;
+}
+.date-calculator__container__text {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 0.2rem solid rgb(130, 129, 129);
+}
+.date-calculator__container__content {
+  width: 100%;
+}
+.date-calculator__container__content__date {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.date-calculator__container__content__btn--calculate {
+  min-width: 100%;
+  padding: 0.25rem;
+  min-height: 2.5rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 0.09rem solid #007bff;
+  color: #007bff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.date-calculator__container__content__btn--calculate:hover {
+  background-color: #007bff;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
